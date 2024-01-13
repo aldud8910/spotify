@@ -1,0 +1,186 @@
+body {
+    display:contents;
+    margin:0px;
+    font-family: spotify-circular, Helvetica, Arial, sans-serif;
+    color:white;
+}
+
+
+nav {
+    display:flex;
+    justify-content: space-around;
+    align-items:center;
+    height:80px;
+    background-color:black;
+
+}
+
+.nav-font {
+    font-size:17px;
+    text-decoration:none;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    color:rgb(255, 255, 255);
+}
+
+.nav-menu {
+    padding:28px 17px;
+}
+
+
+main {
+    display:flex;
+    align-items:center;
+    justify-content: center;
+    height:968px;
+    background-color:#00db4e;
+    background-image: url(file:///Users/miyoung/Desktop/%E1%84%8C%E1%85%A6%E1%84%86%E1%85%A9%E1%86%A8%20%E1%84%8B%E1%85%A5%E1%86%B9%E1%84%8B%E1%85%B3%E1%86%B7-7.png);
+    background-size: 200%;
+    background-position: 46% 4%;
+}
+
+.headline {
+    font-size: 146px;
+    font-weight: bolder;
+    color: #000000;
+    position: relative;
+    right: 50px;
+}
+
+.headline1-position {
+    color: #000000;
+    position: relative;
+    left: -0.4em;
+    margin-top:-80px;
+}
+
+.subtext {
+    margin-top:40px;
+    text-align: center;
+    color: #2941ab;
+    font-family: 'IBM Plex Sans KR', sans-serif;
+    font-size:18px;
+}
+
+.button-style {
+    display:flex;
+    justify-content: center;
+    padding: 14px 32px;
+    background-color:#2941ab;
+    border-radius: 500px;
+    font-size: inherit;
+    color: #1ed760;
+    font-weight: 700;
+    border: none;
+}
+
+.button-style:hover {
+    transform: scale(1.07);
+    background-color: #2343d3;
+}
+
+.button-area {
+    text-align: center;
+}
+
+
+footer {
+    height:530px;
+    background-color: black;
+}
+
+div {
+    display: block;
+}
+
+footer {
+height: 530px;
+background-color: black;
+display: flex;
+justify-content: center;
+}
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+    padding-top: 80px;
+    padding-bottom: 50px;
+}
+
+.first-box {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sub-title {
+    color: #919496;
+    font-weight: 900;
+    margin: 20px 0px;
+}
+
+.footer-menu {
+    display: flex;
+    justify-content: space-between;
+    height: 346px;
+}
+
+.footer-menu-item {
+    padding-bottom: 15px;
+    padding-top: 3px;
+    font-size: 16px;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    color: #1ed760;
+}
+
+.icon-box {
+    width: 54px;
+    height: 54px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-box {
+    width: 54px;
+    height: 54px;
+    background-color: #222322;
+    border-radius: 50%;
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    font-size: 24px;
+}
+
+
+.fab, .far {
+    font-weight: 400;
+}
+
+.icon {
+    font-size: 24px;
+}
+.fab, .far {
+    font-weight: 400;
+}
+.fab {
+    font-family: "Font Awesome 5 Brands";
+}
+.second-line {
+    color: #919496;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 12px;
+}
